@@ -1,0 +1,11 @@
+{
+  "name": "sisgep",
+  "version": "1.0.0",
+  "description": "SISTEMA DE GERENCIAMENTO PRISIONAL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Francisco Carlos do Nascimento Júnior",
+  "license": "ISC"
+}
