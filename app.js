@@ -13,5 +13,5 @@ app.use(express.static(path.join(__dirname, 'public')));
 });*/
 
 app.listen(process.env.PORT, '0.0.0.0', () => {
-    console.log(`Servidor rodando...`);
-  });
+  console.log(`Servidor rodando em http://localhost:${process.env.PORT}`);
+});
