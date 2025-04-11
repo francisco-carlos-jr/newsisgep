@@ -4,8 +4,9 @@ const app = express();
 const usuarioRoutes = require('./routes/sentenciadoRoutes');
 require('dotenv').config();
 
-app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+//app.use(express.json());
+app.use(express.static('public'));
+//app.use(express.static(path.join(__dirname, 'public')));
 //app.use('/sentenciado', sentenciadoRoutes);
 
 /*app.listen(process.env.PORT, () => {
